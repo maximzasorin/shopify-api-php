@@ -1,0 +1,24 @@
+Slince\Shopify\Manager\Metafield\Metafield:
+    properties:
+        id:
+            type: integer
+        namespace:
+            type: string
+        key:
+            type: string
+        value:
+            type: string
+        valueType:
+            type: string
+        description:
+            type: string
+        ownerId:
+            type: integer
+        createdAt:
+            type: DateTime<'Y-m-d\TH:i:sP'>
+        updatedAt:
+            type: DateTime<'Y-m-d\TH:i:sP'>
+        ownerResource:
+            type: string
+        adminGraphqlApiId:
+            type: string

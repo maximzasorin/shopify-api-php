@@ -37,6 +37,8 @@ use Slince\Shopify\Hydrator\Hydrator;
  * @method Manager\DiscountCode\DiscountCodeManagerInterface getDiscountCodeManager
  * @method Manager\Fulfillment\FulfillmentManagerInterface getFulfillmentManager
  * @method Manager\FulfillmentService\FulfillmentServiceManagerInterface getFulfillmentServiceManager
+ * @method Manager\Location\LocationManagerInterface getLocationManager
+ * @method Manager\Metafield\MetafieldManagerInterface getMetafieldManager
  * @method Manager\Order\OrderManagerInterface getOrderManager
  * @method Manager\OrderRisk\RiskManagerInterface getOrderRiskManager
  * @method Manager\Page\PageManagerInterface getPageManager
@@ -104,6 +106,7 @@ class Client
         Manager\Fulfillment\FulfillmentManager::class,
         Manager\FulfillmentService\FulfillmentServiceManager::class,
         Manager\Location\LocationManager::class,
+        Manager\Metafield\MetafieldManager::class,
         Manager\Order\OrderManager::class,
         Manager\OrderRisk\RiskManager::class,
         Manager\Page\PageManager::class,
